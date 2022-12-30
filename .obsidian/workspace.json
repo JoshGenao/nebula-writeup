@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Levels/Level-01.md",
+                "file": "Levels/Level-00.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Levels/Level-01.md",
+                "file": "Levels/Level-00.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Levels/Level-01.md",
+                "file": "Levels/Level-00.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Levels/Level-01.md"
+                "file": "Levels/Level-00.md"
               }
             }
           }
@@ -162,6 +162,7 @@
   },
   "active": "f61e76bef3102340",
   "lastOpenFiles": [
+    "imgs/Pasted image 20221229235301.png",
     "Levels/Level-00.md",
     "Levels/Level-01.md",
     "Levels/Pasted image 20221229234740.png.md",

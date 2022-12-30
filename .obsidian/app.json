@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "Levels",
-  "attachmentFolderPath": "imgs"
+  "attachmentFolderPath": "imgs",
+  "newLinkFormat": "relative"
 }
