@@ -22,6 +22,6 @@ The flags `setuid` and `setgid` are needed for tasks that require different 
 ## How to Find Files with setuid Permissions?
 `$ find / -user flag00 -perm -4000 2>/dev/null`
 ## Flag
-![[../imgs/Pasted image 20221229235301.png]]
+![](../imgs/Pasted%20image%2020221229235301.png)
 ## References
 [^1]: https://en.wikipedia.org/wiki/Setuid

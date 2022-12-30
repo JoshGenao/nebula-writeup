@@ -2,5 +2,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Levels",
   "attachmentFolderPath": "imgs",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true
 }
