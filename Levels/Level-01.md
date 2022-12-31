@@ -6,7 +6,6 @@ Tags:
 ---
 
 # Level-01
-
 ## Description
 There is a vulnerability in the below program that allows arbitrary programs to be executed, can you find it?
 
@@ -44,11 +43,14 @@ An attacker can manipulate the `/usr/bin/env` such that this program can execute
 This can be done by doing the following:
 1. We first verify the environment variables by calling the `/usr/bin/env` command
 2. Notice that the `PATH` varable is printed out. This variable contains an ordered list of paths that Linux will search for executables when running a command. Therefore, we can add to the beginning of `PATH` list so it can run our echo script and not the default Linux echo program.
+
 ![](../imgs/Pasted%20image%2020221231124848.png)
 3. First lets create a bash script named `echo` in the `/tmp/` folder. This script will contain a call to the `getflag` command. 
 4. Make the `/tmp/echo` file executable by using `chmod +x /tmp/echo`
+
 ![](../imgs/Pasted%20image%2020221231125638.png)
 5. Append a new path at the beginning of the `PATH` variable. The reason we want to append to the beginning of the `PATH` variable is so our `echo` command will appear first in the list as shown below
+
 ![](../imgs/Pasted%20image%2020221231130501.png)
 ![](../imgs/Pasted%20image%2020221231130546.png)
 6. Run the flag01 program
