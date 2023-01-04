@@ -1,8 +1,8 @@
 ---
 author: Josh Genao
 Date: 2023-01-02
-Category:
-Tags:
+Category: #symlink
+Tags: #symlinkattack
 ---
 
 # Level-04
@@ -48,7 +48,7 @@ int main(int argc, char **argv, char **envp)
 ```
 
 ## Setup
-  SSH into the Nebula VM using the following credentials:
+SSH into the Nebula VM using the following credentials:
 
 ```
 username: level04
